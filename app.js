@@ -7,6 +7,7 @@ const connect = require("./schemas/index.js");
 connect()
 
 
+
 app.use(express.json());
 app.use("/api", [goodsRouter, cartsRouter]);
 

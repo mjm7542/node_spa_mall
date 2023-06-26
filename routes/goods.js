@@ -113,6 +113,8 @@ router.post("/goods", async (req, res) => {
     res.json({ goods: createdGoods });
 });
 
+
+
 module.exports = router;
 
 // 상품 조회 - 상품을 가져와서 보여준다(DB에서 가져오는 것을 안해서 이건 지금 코드 내에 위에 정보만 보임)
